@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".haalamanfirst"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hasilquizx"
+            android:exported="false" />
+        <activity
+            android:name=".quizno2"
+            android:exported="false" />
+        <activity
+            android:name=".openingquiz"
+            android:exported="false" />
+        <activity
+            android:name=".rate"
+            android:exported="false"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".hasilquiz"
+            android:exported="false" />
+        <activity
+            android:name=".quiz4"
+            android:exported="false" />
+        <activity
+            android:name=".quiz3"
+            android:exported="false" />
+        <activity
+            android:name=".quiz1"
+            android:exported="false" />
+        <activity
+            android:name=".loginnn"
+            android:exported="false" />
+        <activity
+            android:name=".regist"
+            android:exported="false" />
+        <activity
+            android:name=".landgpag"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frgtpw"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ktgori1"
+            android:exported="false" />
+        <activity
+            android:name=".homequiz"
+            android:exported="false" />
+        <activity
+            android:name=".kategori2"
+            android:exported="false" />
+        <activity
+            android:name=".kategori1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

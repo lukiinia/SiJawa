@@ -1,0 +1,135 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="#A44E0C"
+    >
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="wrap_content"
+          android:layout_height="818dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginStart="-3dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="-305dp"
+          android:src="@drawable/elips" />
+
+
+      <ImageButton
+          android:id="@+id/imag"
+          android:layout_width="297dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerInParent="true"
+          android:layout_marginStart="-98dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginEnd="213dp"
+          android:layout_marginBottom="835dp"
+          android:backgroundTint="#A44E0C"
+          android:src="@drawable/vector1" />
+
+      <ImageView
+          android:id="@+id/image"
+          android:layout_width="361dp"
+          android:layout_height="711dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerInParent="true"
+          android:layout_marginStart="27dp"
+          android:layout_marginEnd="23dp"
+          android:layout_marginBottom="87dp"
+          android:src="@drawable/kontainer" />
+
+      <TextView
+          android:layout_width="192dp"
+          android:layout_height="58dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginStart="122dp"
+          android:layout_marginTop="179dp"
+          android:text="Buat akun"
+          android:textColor="#998473"
+          android:textSize="36sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:layout_width="292dp"
+          android:layout_height="52dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="435dp"
+          android:layout_marginEnd="55dp"
+          android:background="@drawable/bckgusn"
+          android:hint="@string/email" />
+
+      <EditText
+          android:layout_width="292dp"
+          android:layout_height="52dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="283dp"
+          android:layout_marginEnd="56dp"
+          android:background="@drawable/bckgusn"
+          android:hint="@string/username" />
+
+      <EditText
+          android:layout_width="292dp"
+          android:layout_height="52dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="359dp"
+          android:layout_marginEnd="56dp"
+          android:background="@drawable/bckgusn"
+          android:hint="@string/password" />
+
+      <ImageButton
+          android:layout_width="334dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginEnd="36dp"
+          android:layout_marginBottom="318dp"
+          android:backgroundTint="#ffff"
+          android:src="@drawable/daftarbttn" />
+
+      <ImageView
+          android:id="@+id/image2"
+          android:layout_width="wrap_content"
+          android:layout_height="630dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerInParent="true"
+          android:layout_marginStart="47dp"
+          android:layout_marginEnd="44dp"
+          android:layout_marginBottom="-24dp"
+          android:src="@drawable/or" />
+
+      <ImageButton
+          android:layout_width="354dp"
+          android:layout_height="80dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginEnd="26dp"
+          android:layout_marginBottom="201dp"
+          android:backgroundTint="#ffff"
+          android:src="@drawable/google" />
+
+
+</RelativeLayout>
+

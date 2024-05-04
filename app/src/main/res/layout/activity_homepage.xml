@@ -1,0 +1,104 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="#A44E0C"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="818dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-283dp"
+        android:src="@drawable/elips" />
+
+
+    <ImageView
+        android:id="@+id/imag"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="401dp"
+        android:src="@drawable/ini" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="-18dp"
+        android:layout_marginBottom="564dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="263dp"
+        android:text="SUGENG RAWUH"
+        android:textSize="39dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="302dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-54dp"
+        android:layout_marginBottom="200dp"
+        android:text="Si Jawa"
+        android:textColor="#824E00"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="376dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="127dp"
+        android:text="Belajar berbagai macam aksara jawa  lebih mudah di sini."
+        android:textColor="#824E00"
+        android:textSize="21sp"
+        android:textStyle="" />
+
+    <ImageButton
+        android:id="@+id/buttony"
+        android:layout_width="236dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#ffff"
+        android:src="@drawable/button1"
+        android:text="mulai" />
+
+
+</RelativeLayout>
+
